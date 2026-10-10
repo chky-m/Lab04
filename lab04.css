@@ -1,0 +1,93 @@
+/*
+
+filename: Tin Tran - Lab04/lab04.css
+
+author: Tin Tran
+
+created: 2023-10-01
+
+last modified: 2023-10-01
+
+description: lab04.css is the CSS file for lab04.html. It contains the styling for the HTML elements in the lab04.html file.
+
+*/
+
+h1 { 
+    font-family: Arial;
+    color: purple;  
+}
+
+h2 {
+    color: rgb(0,128,128);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h1,h2,h3 {
+    font-family: Arial;
+}
+
+border { 
+    border: 1px solid black; 
+    padding: 10px; 
+    margin: 10px; 
+}
+  
+* {color:  #2F4F4F;
+   font-family: calibri, sans-serif; }     
+
+aside:hover {
+    display: none;
+}
+aside, footer {font-style:italic;}
+
+#images {
+         text-align : center; 
+         }
+
+.special {
+          color: darkorange;
+          font-weight:bold;
+         }      
+#hipeye {
+          color: red;
+         }
+.jan ,.feb {
+          text-align: right;
+         }
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+         }      
+nav a:hover {
+          background-color: lightblue;
+          border-color: darkblue;
+         }
+ol ul {
+          list-style-type: square;
+         }
+table {
+          border: 1px solid black;
+         }
+         
+table, th, td {
+          border: 1px solid black;
+         }
+dl {
+    display: none;
+}
+
+h3:has(+ ul),
+h3:has(+ ol),
+h3:has(+ dl) {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+article > h2:first-child {
+    display: none;
+}
