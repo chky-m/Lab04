@@ -27,7 +27,8 @@ h1,h2,h3 {
     font-family: Arial;
 }
 
-border { 
+/* Style for the border class */
+.border { 
     border: 1px solid black; 
     padding: 10px; 
     margin: 10px; 
@@ -39,6 +40,8 @@ border {
 aside:hover {
     display: none;
 }
+
+/* Style for the aside and footer elements */
 aside, footer {font-style:italic;}
 
 #images {
@@ -60,6 +63,8 @@ nav a {
           padding:0.2em 0.6em;
           border: 4px solid #ccc;
          }      
+
+/* Add a hover effect to the navigation links */
 nav a:hover {
           background-color: lightblue;
           border-color: darkblue;
@@ -78,6 +83,7 @@ dl {
     display: none;
 }
 
+/* Hide h3 elements that are immediately followed by ul, ol, or dl elements */
 h3:has(+ ul),
 h3:has(+ ol),
 h3:has(+ dl) {
@@ -88,6 +94,7 @@ footer {
     display: none;
 }
 
+/* Hide the first h2 element inside an article */
 article > h2:first-child {
     display: none;
 }
